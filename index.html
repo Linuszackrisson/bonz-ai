@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotellet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <a class="navigation__logo" href="index.html">
+                <img src="assets/logo/bonz.ai-logo-white-landscape.png" alt="Hotellet">
+            </a>
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="about.html">Om oss</a></li>
+                <li class="navigation__item"><a href="book.html">Boka</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero" class="hero">
+        <h1 class="hero__title">Välkommen</h1>
+        <p class="hero__description">Här bor vi, vi stannar inte.</p>
+        <a href="#rooms" class="hero__btn">Utforska våra rum</a>
+    </section>
+    
+    <main>
+        <section id="about" class="about">
+            <h2 class="about__title">Varför oss?</h2>
+            <p class="about__description">Vi strävar efter att skapa en oöverträffad gästupplevelse för alla, oavsett ekonomisk situation. På vårt hotell är lyxen en konstform, och vi välkomnar dig att upptäcka en värld av bekvämlighet och överflöd.</p>
+        </section>
+
+        <section id="rooms" class="rooms">
+            <h2 class="rooms__title">Några av våra rum:</h2>
+            <div class="room">
+                <img src="assets/photos/01-night.jpg" alt="Rum 1" class="room__image">
+                <h3 class="room__title">Ensamseglaren</h3>
+                <p class="room__description">Ett prisvärt enkelrum med modern design och bekvämlighet för den ensamresenären. Här finner du en bekväm säng, funktionellt arbetsområde och ett elegant badrum</p>
+                <p class="room__price">Pris: 900kr/natt</p>
+            </div>
+            <div class="room">
+                <img src="assets/photos/08-night.jpg" alt="Rum 2" class="room__image">
+                <h3 class="room__title">Sensuella drömmen</h3>
+                <p class="room__description">En exklusiv svit för par som söker romantik. Rummet är inrett med lyxiga detaljer, en generös dubbelsäng och ett elegant badrum för en oförglömlig upplevelse.</p>
+                <p class="room__price">Pris: 1900kr/natt</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="contact__title">Kontakt</h2>
+            <p class="contact__description">Har du några frågor eller vill boka ett rum? Kontakta oss!</p>
+            <form class="contact__form">
+                <input type="text" placeholder="Namn" class="contact__input">
+                <input type="email" placeholder="E-post" class="contact__input">
+                <textarea placeholder="Meddelande" class="contact__textarea"></textarea>
+                <button type="submit" class="contact__button">Skicka</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <p class="footer__text">&copy; 2023 Linus Zackrisson. Alla rättigheter förbehållna.</p>
+    </footer>
+</body>
+</html>
